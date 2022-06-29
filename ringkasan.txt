@@ -24,3 +24,10 @@ ket : push data ke server repo
 
 * git push namaRemote localBranch:branchBaru
 ket : push data ke server repo dengan namaBranch yang baru
+
+* git push origin --all
+ket : mengupload semua branch yang ada di localBranch
+
+* git push --delete namaRemote namaBranch
+ket : menghapus branch di repo server
+
