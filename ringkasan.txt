@@ -1,0 +1,20 @@
+membuat ssh key (github)
+* ssh-keygen -> maka akan muncul key public dan key private di folder .ssh yang telah ditentukan,
+file tersebut biasanya bernama id_rsa dan id_rsa.pub
+* setelah itu setting di server repository/key
+* untuk menampilkan ssh keynya masuk kedalam .ssh dan ketik perintah cat id_rsa.pub (Linux)
+* setelah copy key tersebut dan paste di setting key server
+* maka otomatis akan terhubung
+
+Membuat remot
+* git remote add namaRemote ssh-url
+ket : membuat remote ke server repo
+
+* git remote
+ket : menampilkan nama remot
+
+* git remote get-url namaRemote
+ket : mendapatkan nama url di server repo
+
+* git remote rm namaRemote
+ket : menghapus remot repository
