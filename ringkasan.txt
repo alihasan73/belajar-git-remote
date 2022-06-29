@@ -31,3 +31,5 @@ ket : mengupload semua branch yang ada di localBranch
 * git push --delete namaRemote namaBranch
 ket : menghapus branch di repo server
 
+* git clone namaUrlrepo di server
+ket : mengclone repo yang ada di server termasuk dengan remote dan inizilisasi gitnya (tidak termasuk branch didalamnya)
