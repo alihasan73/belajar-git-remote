@@ -18,3 +18,9 @@ ket : mendapatkan nama url di server repo
 
 * git remote rm namaRemote
 ket : menghapus remot repository
+
+* git push namaRemote localBranch
+ket : push data ke server repo
+
+* git push namaRemote localBranch:branchBaru
+ket : push data ke server repo dengan namaBranch yang baru
