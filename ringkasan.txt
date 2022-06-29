@@ -34,6 +34,9 @@ ket : menghapus branch di repo server
 * git clone namaUrlrepo di server
 ket : mengclone repo yang ada di server termasuk dengan remote dan inizilisasi gitnya (tidak termasuk branch didalamnya)
 
+* git clone namaUrlrepo namaFolder
+ket : mengclone repo dari server namun menggunakan nama sesuai yang diinginkan
+
 * git branch -r 
 ket : melihat branch yang ada di remote repository
 
