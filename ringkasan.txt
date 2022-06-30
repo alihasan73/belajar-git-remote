@@ -45,3 +45,6 @@ ket : melihat semua branch yang di local dan remote
 
 * git checkout -b namaBranchLocal namaRemote/namaBranchRemote
 ket : mengambil data branch yang ada di remote dengan membuat branch di local
+
+* git pull namaRemote namaBranch
+ket : mengambil data di server repo dan mengubah di local
